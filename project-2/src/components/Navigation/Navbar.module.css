@@ -1,0 +1,13 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+
+.Navbar ul{
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  font-weight: 600;
+}
