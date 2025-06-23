@@ -2,4 +2,41 @@
     display: flex;
     max-width: 1000px;
     margin: 0 auto;
+    margin-top: 45px;
+    align-items:end;
+}
+.top_btn{
+    display: flex;
+    gap: 32px;
+}
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    /* background-color: red; */
+}
+.contact_form form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 24px;
+}
+.form_control{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.form_control input{
+    height: 50px;
+    padding: 0 10px;
+
+}
+.form_control label{
+    position: absolute;
+    font-size: 14px;
+    top: -8px;
+    left: 10px;
+    background-color: white;
 }

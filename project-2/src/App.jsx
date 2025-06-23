@@ -1,7 +1,7 @@
 import ContactForm from "./components/ContactForm/ContactForm"
 import Contactheader from "./components/ContactHEader/Contactheader"
 import Navbar from "./components/Navigation/Navbar"
-
+import './app.css';
 
 function App() {
 
@@ -9,8 +9,10 @@ function App() {
   return (
     <div >
    <Navbar />
-   <Contactheader />
+   <main className="main">
+    <Contactheader />
    <ContactForm />
+   </main>
     </div>
   )
 }
